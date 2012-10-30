@@ -4,6 +4,10 @@ Chrome Developer Tools
 1. short keys
 
     在console界面中输入?号
+    
+1. 查找源代码
+
+    在Chrome Developer tools
 
 1. XHR
 
@@ -24,7 +28,9 @@ Chrome Developer Tools
 
     返回DOM对象所有属性值
     
-4. inspect()
+4. inspect(DOM)
+
+    自动inspect到当前dom元素。
 
 5. $0 $1 $2
 
@@ -85,12 +91,12 @@ Chrome Developer Tools
 
 ## opera
 
-1. // jquery    
+1. jquery    
 
     console输入
-    ''' javascript
+    ``` javascript
         // jquery 
-    '''
+    ```
     自动载入jquery库
 
 ## firefox
