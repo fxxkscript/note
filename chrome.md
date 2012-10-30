@@ -1,13 +1,25 @@
 Chrome Developer Tools
 ======
 
-1. short keys
+1. Beautify JavaScript
 
-    在console界面中输入?号
+    很多网站的JavaScript都是压缩过的，难以阅读，以前都是用(Online
+    JavaScript Beautifier)[http://jsbeautifier.org/]来解压缩。
     
-1. 查找源代码
+    其实Chrome内置了这个功能。
+    
+    打开控制台<F12>，在Scripts这个选项下，左下角有个{}的图标（Pretty print），点一下就
+    可以解压缩。
 
-    在Chrome Developer tools
+1. 快捷键
+
+    * 在Chrome Developer tools打开(快捷键<F12>)的情况下，按ctrl + shift
+    + F,即可查找JavaScript源代码
+    * 在Scripts选项下，按ctrl + shift + o，查找函数名
+    * 在Scripts选项下，按ctrl + ｏ， 查找脚本文件
+    * 忘了快捷键怎么办？想看其他快捷键肿么半？：
+      
+      > 在console界面中按?号查看帮助
 
 1. XHR
 
@@ -79,13 +91,13 @@ Chrome Developer Tools
 
     将str复制到系统剪切板
     
-11. 更多console api
+11. 更多[console api] [1]
 
     Chrome和Firebug类似
 
     [Firebug Console Api](http://getfirebug.com/wiki/index.php/Console_API#console.trace.28.29)
 
-12. 更多command line api
+12. 更多[command line api] [2]
 
     [command line api](http://getfirebug.com/wiki/index.php/Command_Line_API)
 
@@ -107,8 +119,14 @@ Chrome Developer Tools
     
     切换上下文
 
-## link 
+## links
 
-[Become a Javascript Console Power-User](https://www.youtube.com/watch?feature=player_embedded&v=4mf_yNLlgic#!)
+[Become a JavaScript Console Power-User](https://www.youtube.com/watch?feature=player_embedded&v=4mf_yNLlgic#!)
 
 [Chrome Develoepr Tools Doc](https://developers.google.com/chrome-developer-tools/docs/overview)
+
+[chrome developer tool 调试技巧](http://ued.taobao.com/blog/2012/06/03/debug-with-chrome-dev-tool/)
+
+[1]: http://getfirebug.com/wiki/index.php/Console_API#console.trace.28.29 "Console APi"
+
+[2]: http://getfirebug.com/wiki/index.php/Command_Line_API      "Command Line Api"
