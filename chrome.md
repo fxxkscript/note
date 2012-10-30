@@ -29,8 +29,8 @@ Chrome Developer Tools
 
 2. console.time('name') / console.timeEnd('name')    
 
-    console.time 用来计算代码的运行时间，在console中打印出来。用
-    console.timeEnd()来标示结束的位置。
+    `console.time()` 用来计算代码的运行时间，在console中打印出来。用
+    `console.timeEnd()`来标示结束的位置。
     
     参数为这段计时器的名称
 
@@ -44,16 +44,16 @@ Chrome Developer Tools
 
 5. $0 $1 $2
 
-    用Developer Tools选择过页面元素后，在console中输入$0，即会打印当前
-    选中元素的DOM信息。类似getElementById
+    用Developer Tools选择过页面元素后，在console中输入`$0`，即会打印当前
+    选中元素的DOM信息。类似`getElementById`
     
     `$1` 可以打印前一次选中的DOM
     
     `$N` 可以打印前N次选中的DOM
 
-6. $$() bling-bling 
+6. $$() 
 
-    类似querySeletorAll()
+    类似`querySeletorAll()`
     
     > `$$('#id .class p')` 取出id是“id”中的子元素class是“class”的子元
     素tag是“p”标签的所有节点
@@ -111,7 +111,7 @@ Chrome Developer Tools
 
 1. iframe
 
-    cd()
+    `cd()`
     
     切换上下文
 
