@@ -122,7 +122,7 @@ Chrome Developer Tools Tricks
     
     切换上下文
 
-## links
+## Links
 
 [Become a JavaScript Console Power-User](https://www.youtube.com/watch?feature=player_embedded&v=4mf_yNLlgic#!)
 
