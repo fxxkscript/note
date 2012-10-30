@@ -12,7 +12,6 @@ Chrome Developer Tools
     可以解压缩。
 
 1. 快捷键
-
     * 在Chrome Developer tools打开(快捷键<F12>)的情况下，按ctrl + shift + F,即可查找JavaScript源代码
     * 在Scripts选项下，按ctrl + shift + o，查找函数名
     * 在Scripts选项下，按ctrl + ｏ， 查找脚本文件
