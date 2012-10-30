@@ -71,10 +71,17 @@ Chrome Developer Tools Tricks
     
     > `monitorEvents($$('body'), 'key')` 打印body元素上有关键盘所有的事件
 
-    > mouse:  “mousedown”, “mouseup”, “click”, “dblclick”, “mousemove”, “mouseover”, “mouseout”, “mousewheel” 
+    > mouse:  “mousedown”, “mouseup”, “click”, “dblclick”,
+      “mousemove”, “mouseover”, “mouseout”, “mousewheel” 
+
     > key: “keydown”, “keyup”, “keypress”, “textInput”
-    > touch:  “touchstart”, “touchmove”, “touchend”, “touchcancel”
-    > control:  “resize”, “scroll”, “zoom”, “focus”, “blur”, “select”, “change”, “submit”, “reset”
+
+    > touch:  “touchstart”, “touchmove”, “touchend”,
+      “touchcancel”
+
+    > control:  “resize”, “scroll”, “zoom”, “focus”, “blur”,
+      “select”, “change”, “submit”, “reset”
+
     > no arguments: all of the above + “load”, “unload”, “abort”, “error”, “select”, “change”, “submit”, “reset”, “focus”, “blur”, “resize”, “scroll”, “search”, “devicemotion”, “deviceorientation”
 
 8. keys(obj) 
