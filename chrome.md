@@ -9,11 +9,11 @@ Chrome Developer Tools
     
     其实Chrome内置了这个功能。
     
-    打开控制台\<F12\>，在Scripts这个选项下，左下角有个{}的图标（Pretty print），点一下就
+    打开控制台`<F12>`，在Scripts这个选项下，左下角有个{}的图标（Pretty print），点一下就
     可以解压缩。
 
 1. 快捷键
-    * 在Chrome Developer tools打开(快捷键\<F12>)的情况下，按ctrl + shift + F,即可查找JavaScript源代码
+    * 在Chrome Developer tools打开(快捷键`<F12>`)的情况下，按ctrl + shift + F,即可查找JavaScript源代码
     * 在Scripts选项下，按ctrl + shift + o，查找函数名
     * 在Scripts选项下，按ctrl + ｏ， 查找脚本文件
     * 忘了快捷键怎么办？想看其他快捷键肿么半？
