@@ -109,9 +109,9 @@ Chrome Developer Tools Tricks
 1. jQuery    
 
     console输入
-    ``` javascript
-        // jquery 
-    ```
+    
+    `// jquery`
+    
     自动载入jquery库
 
 ## Firefox
