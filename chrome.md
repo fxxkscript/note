@@ -1,6 +1,10 @@
 Chrome Developer Tools
 ======
 
+1. short keys
+
+    在console界面中输入?号
+
 1. XHR
 
     在console右键，选中Log XMLHttpRequests，当有ajax时，会在console中
@@ -18,8 +22,8 @@ Chrome Developer Tools
 
 3. console.dir() / dir
 
+    返回DOM对象所有属性值
     
-
 4. inspect()
 
 5. $0 $1 $2
@@ -40,16 +44,16 @@ Chrome Developer Tools
 
 7. monitorEvents() / unmonitorEvents()
 
-    用来打印事件
+    用来观察事件
     
     >monitorEvents($$('body')) 打印body元素上所有的发生的事件
     
     还可以添加第二参数，用来限制观察那种类型的事件，官方api现在貌似支
     持下面几个参数：
     
-    >mouse key touch control
+    > mouse key touch control
     
-    >monitorEvents($$('body'), 'key') 打印body元素上有关键盘所有的事件
+    > monitorEvents($$('body'), 'key') 打印body元素上有关键盘所有的事件
 
     > mouse:  “mousedown”, “mouseup”, “click”, “dblclick”, “mousemove”, “mouseover”, “mouseout”, “mousewheel” 
     > key: “keydown”, “keyup”, “keypress”, “textInput”
@@ -57,23 +61,48 @@ Chrome Developer Tools
     > control:  “resize”, “scroll”, “zoom”, “focus”, “blur”, “select”, “change”, “submit”, “reset”
     > no arguments: all of the above + “load”, “unload”, “abort”, “error”, “select”, “change”, “submit”, “reset”, “focus”, “blur”, “resize”, “scroll”, “search”, “devicemotion”, “deviceorientation”
 
-8. keys() values() copy()
+8. keys(obj) 
 
+    打印对象所有属性
+
+9. values(obj) 
+
+    返回对象所有属性的值
+
+10. copy(str)
+
+    将str复制到系统剪切板
+    
+11. 更多console api
+
+    Chrome和Firebug类似
+
+    [Firebug Console Api](http://getfirebug.com/wiki/index.php/Console_API#console.trace.28.29)
+
+12. 更多command line api
+
+    [command line api](http://getfirebug.com/wiki/index.php/Command_Line_API)
 
 ## opera
 
 1. // jquery    
 
-    auto load jquery
-
+    console输入
+    ''' javascript
+        // jquery 
+    '''
+    自动载入jquery库
 
 ## firefox
 
 1. iframe
 
-    cd()  change context window
-
-
+    cd()
+    
+    切换上下文
 
 ## link 
+
 [Become a Javascript Console Power-User](https://www.youtube.com/watch?feature=player_embedded&v=4mf_yNLlgic#!)
+
+[Chrome Develoepr Tools Doc](https://developers.google.com/chrome-developer-tools/docs/overview)
