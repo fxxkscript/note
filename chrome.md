@@ -1,4 +1,4 @@
-Chrome Developer Tools
+Chrome Developer Tools Tricks
 ======
 
 1. Beautify JavaScript
