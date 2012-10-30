@@ -9,22 +9,22 @@ Chrome Developer Tools
     
     其实Chrome内置了这个功能。
     
-    打开控制台`<F12>`，在Scripts这个选项下，左下角有个{}的图标（Pretty print），点一下就
+    打开控制台`<F12>`，在Scripts这个选项下，左下角有个`{}`的图标（Pretty print），点一下就
     可以解压缩。
 
 1. 快捷键
-    * 在Chrome Developer tools打开(快捷键`<F12>`)的情况下，按ctrl + shift + F,即可查找JavaScript源代码
-    * 在Scripts选项下，按ctrl + shift + o，查找函数名
-    * 在Scripts选项下，按ctrl + ｏ， 查找脚本文件
+    * 在Chrome Developer tools打开(快捷键`<F12>`)的情况下，按`ctrl+shift+F`,即可查找JavaScript源代码
+    * 在Scripts选项下，按`ctrl+shift+o`，查找函数名
+    * 在Scripts选项下，按`ctrl+o`， 查找脚本文件
     * 忘了快捷键怎么办？想看其他快捷键肿么半？
-        * 在console界面中按?号查看帮助
+        * 在console界面中按`?`号查看帮助
 
 1. XHR
 
-    在console右键，选中Log XMLHttpRequests，当有ajax时，会在console中
+    在console`右键`，选中`Log XMLHttpRequests`，当有ajax时，会在console中
     打印日志。
     
-    第二个选项是Preseve Log Upon Navigation， 切换页面，原先的日志不会
+    第二个选项是`Preseve Log Upon Navigation`， 切换页面，原先的日志不会
     消失。
 
 2. console.time('name') / console.timeEnd('name')    
@@ -47,29 +47,29 @@ Chrome Developer Tools
     用Developer Tools选择过页面元素后，在console中输入$0，即会打印当前
     选中元素的DOM信息。类似getElementById
     
-    $1 可以打印前一次选中的DOM
+    `$1` 可以打印前一次选中的DOM
     
-    $N 可以打印前N次选中的DOM
+    `$N` 可以打印前N次选中的DOM
 
 6. $$() bling-bling 
 
     类似querySeletorAll()
     
-    >$$('#id .class p') 取出id是“id”中的子元素class是“class”的子元
+    > `$$('#id .class p')` 取出id是“id”中的子元素class是“class”的子元
     素tag是“p”标签的所有节点
 
 7. monitorEvents() / unmonitorEvents()
 
     用来观察事件
     
-    >monitorEvents($$('body')) 打印body元素上所有的发生的事件
+    > `monitorEvents($$('body'))` 打印body元素上所有的发生的事件
     
     还可以添加第二参数，用来限制观察那种类型的事件，官方api现在貌似支
     持下面几个参数：
     
-    > mouse key touch control
+    > `mouse key touch control`
     
-    > monitorEvents($$('body'), 'key') 打印body元素上有关键盘所有的事件
+    > `monitorEvents($$('body'), 'key')` 打印body元素上有关键盘所有的事件
 
     > mouse:  “mousedown”, “mouseup”, “click”, “dblclick”, “mousemove”, “mouseover”, “mouseout”, “mousewheel” 
     > key: “keydown”, “keyup”, “keypress”, “textInput”
