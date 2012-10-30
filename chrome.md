@@ -4,7 +4,7 @@ Chrome Developer Tools
 1. Beautify JavaScript
 
     很多网站的JavaScript都是压缩过的，难以阅读，以前都是用
-    (Online JavaScript Beautifier)[http://jsbeautifier.org/]
+    [Online JavaScript Beautifier](http://jsbeautifier.org/)
     来解压缩。
     
     其实Chrome内置了这个功能。
