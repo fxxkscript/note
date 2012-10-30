@@ -92,15 +92,13 @@ Chrome Developer Tools
 
     Chrome和Firebug类似
 
-    [Firebug Console Api](http://getfirebug.com/wiki/index.php/Console_API#console.trace.28.29)
 
 12. 更多[command line api] [2]
 
-    [command line api](http://getfirebug.com/wiki/index.php/Command_Line_API)
 
-## opera
+## Opera
 
-1. jquery    
+1. jQuery    
 
     console输入
     ``` javascript
@@ -108,7 +106,7 @@ Chrome Developer Tools
     ```
     自动载入jquery库
 
-## firefox
+## Firefox
 
 1. iframe
 
